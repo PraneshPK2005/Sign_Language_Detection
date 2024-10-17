@@ -1,0 +1,13 @@
+train: P:\dataset\ram\train\images
+val: P:\dataset\ram\valid\images
+test: P:\dataset\ram\test\images
+
+nc: 7
+names: ['Cool', 'Hello', 'IloveYou', 'Namaste', 'ThankYou', 'fail', 'perfect']
+
+roboflow:
+  workspace: vraj-atah9
+  project: signlanguage-f0irs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vraj-atah9/signlanguage-f0irs/dataset/1
